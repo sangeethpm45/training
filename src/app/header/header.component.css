@@ -1,0 +1,21 @@
+.right {
+  text-align: center;
+  padding: 1rem;
+
+  font-weight: 500;
+  font-size: 15px;
+}
+a {
+  color: #151515;
+  text-decoration: none;
+}
+
+.sl {
+  padding: 4px 8px;
+  background: #fff;
+  border: 1px solid #13a538 !important;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 100px !important;
+  color: #13a538;
+}
