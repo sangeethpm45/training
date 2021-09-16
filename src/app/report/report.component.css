@@ -47,3 +47,9 @@ a{
     padding: 24px 15px !important;
     height: 100% !important;
 }
+.note-2 {
+    background-color: #f4faf7;
+    color: var(--primary,#0c7438);
+    line-height: 150%;
+    padding: 1.6rem;
+}
