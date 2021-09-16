@@ -1,8 +1,10 @@
 <div class="row mx-0">
   <div class="overflow-hidden col-md-8 col-12 col-xs-12 col-8 ps-lg-5 pe-lg-2">
     <nav class="row logo">
-      <a href=""></a>
-      <img src="../../assets/logo2.png" alt="" />
+      <a href="">
+        <img src="../../assets/logo2.png" alt="" />
+      </a>
+     
     </nav>
     <div class="left">
       <app-step-mark></app-step-mark>
@@ -132,7 +134,7 @@
               Back
 
             </button>
-            <button class="button2">
+            <button class="button2" (click)="calculate()">
               Next:Calculate carbon footprint data
               <i class="fa fa-arrow-right"></i>
             </button>
