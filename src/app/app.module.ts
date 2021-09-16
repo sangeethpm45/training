@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FrontPageComponent } from './front-page/front-page.component';
@@ -8,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { FarmDetailsComponent } from './farm-details/farm-details.component';
 import { StepMarkComponent } from './step-mark/step-mark.component';
 import { CalculationComponent } from './calculation/calculation.component';
+import { ReportComponent } from './report/report.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,8 @@ import { CalculationComponent } from './calculation/calculation.component';
     HeaderComponent,
     FarmDetailsComponent,
     StepMarkComponent,
-    CalculationComponent
+    CalculationComponent,
+    ReportComponent
   ],
   imports: [
     BrowserModule,

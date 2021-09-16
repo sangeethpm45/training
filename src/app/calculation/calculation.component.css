@@ -26,9 +26,20 @@
     border-radius: 10px;
     width: 150px;
     color: #01a747;
+    
   }
 
   .main {
     padding-left: 125px !important;
     padding-right: 125px !important;
+}
+
+.category-div {
+  background:#f4f6fa ;
+  border: 1px solid #ebf1f1;
+  padding: 16px !important;
+  cursor: pointer !important;
+}
+.category-div:visited{
+  background-color: white;
 }
